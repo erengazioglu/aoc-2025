@@ -2,10 +2,9 @@
 Advent of Code 2025 - Day X
 """
 
-def read_input(filename='input.txt'):
-    """Read and return the puzzle input."""
-    with open(filename, 'r') as f:
-        return f.read().strip()
+import sys
+sys.path.insert(0, '..')
+from aoc_utils import read_input
 
 
 def part1(data):

@@ -6,9 +6,11 @@ Solutions for [Advent of Code 2025](https://adventofcode.com/2025) puzzles in Py
 
 Each day's puzzle is in its own directory:
 ```
+aoc_utils.py         # Shared utility functions
+template.py          # Template for new days
 day01/
-  solution.py    # Python solution
-  input.txt      # Puzzle input
+  solution.py        # Python solution
+  input.txt          # Puzzle input
 day02/
   solution.py
   input.txt
@@ -55,5 +57,5 @@ python solution.py
 ## Tips
 
 - Each day has two parts - implement them in `part1()` and `part2()` functions
-- The `read_input()` function reads your puzzle input from `input.txt`
+- The `read_input()` function is imported from `aoc_utils.py` and reads your puzzle input from `input.txt`
 - Keep it simple - just plain Python, no fancy frameworks needed!
