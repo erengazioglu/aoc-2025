@@ -19,22 +19,26 @@ day02/
 
 ### For a new day:
 
-1. Copy the template:
-   ```bash
-   cp -r template.py dayXX/solution.py
-   ```
-
-2. Create the day directory and input file:
+1. Create the day directory:
    ```bash
    mkdir dayXX
+   ```
+
+2. Copy the template:
+   ```bash
+   cp template.py dayXX/solution.py
+   ```
+
+3. Create the input file:
+   ```bash
    touch dayXX/input.txt
    ```
 
-3. Paste your puzzle input into `dayXX/input.txt`
+4. Paste your puzzle input into `dayXX/input.txt`
 
-4. Implement your solution in `dayXX/solution.py`
+5. Implement your solution in `dayXX/solution.py`
 
-5. Run your solution:
+6. Run your solution:
    ```bash
    cd dayXX
    python solution.py
