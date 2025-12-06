@@ -2,9 +2,7 @@
 Advent of Code 2025 - Day X
 """
 
-import sys
-sys.path.insert(0, '..')
-from aoc_utils import read_input
+from util import read_input
 
 
 def part1(data):

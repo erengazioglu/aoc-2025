@@ -4,18 +4,17 @@ Solutions for [Advent of Code 2025](https://adventofcode.com/2025) puzzles in Py
 
 ## Structure
 
-Each day's puzzle is in its own directory:
+Each day's puzzle _solution_ is in its own directory:
 ```
 aoc_utils.py         # Shared utility functions
 template.py          # Template for new days
 day01/
   solution.py        # Python solution
-  input.txt          # Puzzle input
 day02/
   solution.py
-  input.txt
 ...
 ```
+The puzzle inputs are in an inputs/ folder, which is hidden from git (in .gitignore).
 
 ## Getting Started
 
