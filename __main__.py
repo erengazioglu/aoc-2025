@@ -1,4 +1,4 @@
-import day01, day02
+import day01, day02, day03
 import argparse, os, shutil, sys
 
 def new_day(num, force=False):
@@ -43,7 +43,8 @@ if __name__ == "__main__":
         day02.tests.suite(args.verbose)
     else:
         print(f"Verbose: {args.verbose}")
-        print("Day 01 | Part 1:", day01.part1(f"inputs/01-{puzzle_input}"))
-        print("Day 01 | Part 2:", day01.part2(f"inputs/01-{puzzle_input}"))
-        print("Day 02 | Part 1:", day02.part1(f"inputs/02-{puzzle_input}"))
-        print("Day 02 | Part 2:", day02.part2(f"inputs/02-{puzzle_input}", args.verbose))
+        # print("Day 01 | Part 1:", day01.part1(f"inputs/01-{puzzle_input}"))
+        # print("Day 01 | Part 2:", day01.part2(f"inputs/01-{puzzle_input}"))
+        # print("Day 02 | Part 1:", day02.part1(f"inputs/02-{puzzle_input}"))
+        # print("Day 02 | Part 2:", day02.part2(f"inputs/02-{puzzle_input}", args.verbose))
+        print("Day 03 | Part 1:", day03.part1(f"inputs/03-{puzzle_input}", args.verbose))
