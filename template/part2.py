@@ -1,5 +1,5 @@
 """
-Advent of Code 2025 - Day # Part 2
+Advent of Code 2025 - Day {{DAY}} Part 2
 """
 
 from util import read_input
