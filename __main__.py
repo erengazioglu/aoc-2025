@@ -47,4 +47,5 @@ if __name__ == "__main__":
         # print("Day 01 | Part 2:", day01.part2(f"inputs/01-{puzzle_input}"))
         # print("Day 02 | Part 1:", day02.part1(f"inputs/02-{puzzle_input}"))
         # print("Day 02 | Part 2:", day02.part2(f"inputs/02-{puzzle_input}", args.verbose))
-        print("Day 03 | Part 1:", day03.part1(f"inputs/03-{puzzle_input}", args.verbose))
+        # print("Day 03 | Part 1:", day03.part1(f"inputs/03-{puzzle_input}", args.verbose))
+        print("Day 03 | Part 2:", day03.part2(f"inputs/03-{puzzle_input}", args.verbose))
