@@ -1,3 +1,7 @@
-def read_input(filename):
+def read_input(filename, type="lines"):
     with open(filename, 'r') as f:
-        return f.read().splitlines()
+        match type:
+            case "lines":
+                return f.read().splitlines()
+            case "commas":
+                return f.read().split(",")
