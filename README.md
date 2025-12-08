@@ -16,7 +16,6 @@ Extra command line options are available, run the program with the `-h` flag for
 
 - The program should be able to run individual days (update `__main__.py`)
 - Write a more descriptive help page (`python3 aoc-2025 -h`)
-- Improve the template (create a shell or python program to create new day)
 - Write explanations for each day?
 
 
