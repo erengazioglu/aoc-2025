@@ -8,7 +8,5 @@ def solve(map, w, h):
     print(map, w, h)
 
 def part1(data:str, verbose:bool=False) -> int:
-    map = []
-    for line in read_input(data):
-        map.append(line)
+    map = read_input(data)
     solve(map, len(map[0]), len(map))
