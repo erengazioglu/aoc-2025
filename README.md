@@ -2,19 +2,40 @@
 
 Solutions for [Advent of Code 2025](https://adventofcode.com/2025) puzzles in Python.
 
+## How to use
+
+After making sure you downloaded the inputs with the correct names (01-full, 01-sample, 02-full...), just run the entire directory as a Python program:
+
+```
+python3 aoc-2025
+```
+
+Extra command line options are available, run the program with the `-h` flag for more information.
+
+## To do
+
+- The program should be able to run individual days (update `__main__.py`)
+- Write a more descriptive help page (`python3 aoc-2025 -h`)
+- Improve the template (create a shell or python program to create new day)
+- Write explanations for each day?
+
+
+<!-- 
 ## Structure
 
 Each day's puzzle _solution_ is in its own directory:
 ```
-aoc_utils.py         # Shared utility functions
-template.py          # Template for new days
+aoc_utils.py               # Shared utility functions
+template.py                # Template for new days
 day01/
-  solution.py        # Python solution
+  __init.py__              # Python solution
+  (other necessary files)
 day02/
-  solution.py
+  __init.py__
+  ...
 ...
 ```
-The puzzle inputs are in an inputs/ folder, which is hidden from git (in .gitignore).
+The puzzle inputs are stored in an inputs/ folder, which is hidden from git (in .gitignore).
 
 ## Getting Started
 
@@ -57,4 +78,4 @@ python solution.py
 
 - Each day has two parts - implement them in `part1()` and `part2()` functions
 - The `read_input()` function is imported from `aoc_utils.py` and reads your puzzle input from `input.txt`
-- Keep it simple - just plain Python, no fancy frameworks needed!
+- Keep it simple - just plain Python, no fancy frameworks needed! -->
