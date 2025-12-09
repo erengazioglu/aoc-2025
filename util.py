@@ -5,3 +5,6 @@ def read_input(filename, type="lines"):
                 return f.read().splitlines()
             case "commas":
                 return f.read().split(",")
+
+def replace_index(s:str, i:int, c:str) -> str:
+    return s[:i] + c + s[i+1:]
