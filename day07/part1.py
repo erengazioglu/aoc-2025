@@ -31,4 +31,5 @@ def part1(data:str, verbose:bool=False) -> int:
     for n, line in enumerate(input):
         print(f"line {n:03} : {line}")
     return splits
+
     # return read_input(data)
