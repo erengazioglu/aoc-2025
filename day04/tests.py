@@ -20,7 +20,6 @@ def suite(verbose=False):
     test_neighbors(deps, (2, 0))
     test_neighbors(deps, (0, 1))
     test_neighbors(deps, (1, 1))
-    
 
 
 if __name__ == "__main__":
