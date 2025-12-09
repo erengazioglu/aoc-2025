@@ -52,6 +52,6 @@ if __name__ == "__main__":
         # print("Day 03 | Part 2:", day03.part2(f"inputs/03-{puzzle_input}", args.verbose))
         # print("Day 04 | Part 1:", day04.part1(f"inputs/04-{puzzle_input}", args.verbose))
         # print("Day 04 | Part 2:", day04.part2(f"inputs/04-{puzzle_input}", args.verbose))
-        print("Day 05 | Part 1:", day05.part1(f"inputs/05-{puzzle_input}", args.verbose))
+        # print("Day 05 | Part 1:", day05.part1(f"inputs/05-{puzzle_input}", args.verbose))
         print("Day 05 | Part 1:", day05.part2(f"inputs/05-{puzzle_input}", args.verbose))
 
