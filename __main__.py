@@ -39,8 +39,9 @@ if __name__ == "__main__":
     if args.sample:
         puzzle_input = "sample"
     if args.test:
-        day01.tests.suite()
-        day02.tests.suite(args.verbose)
+        # day01.tests.suite()
+        # day02.tests.suite(args.verbose)
+        day04.tests.suite()
     else:
         print(f"Verbose: {args.verbose}")
         # print("Day 01 | Part 1:", day01.part1(f"inputs/01-{puzzle_input}"))
