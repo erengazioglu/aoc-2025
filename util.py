@@ -8,3 +8,15 @@ def read_input(filename, type="lines"):
 
 def replace_index(s:str, i:int, c:str) -> str:
     return s[:i] + c + s[i+1:]
+
+def multiply(*args):
+    acc = 1
+    for num in args:
+        acc *= num
+    return acc
+
+def add(*args):
+    acc = 0
+    for num in args:
+        acc += num
+    return acc

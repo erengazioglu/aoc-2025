@@ -2,21 +2,7 @@
 Advent of Code 2025 - Day 6 Part 1
 """
 
-from util import read_input
-
-
-def multiply(*args):
-    acc = 1
-    for num in args:
-        acc *= num
-    return acc
-
-
-def add(*args):
-    acc = 0
-    for num in args:
-        acc += num
-    return acc
+from util import read_input, add, multiply
 
 
 def remove_all(arr:list, elem) -> list:
