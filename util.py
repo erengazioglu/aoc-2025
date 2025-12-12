@@ -5,6 +5,11 @@ def read_input(filename, type="lines"):
                 return f.read().splitlines()
             case "commas":
                 return f.read().split(",")
+            case "tuples":
+                arr = []
+                for line in f.read().splitlines():
+                    arr.append(tuple(map(int, line.split(","))))
+                return arr
 
 def replace_index(s:str, i:int, c:str) -> str:
     return s[:i] + c + s[i+1:]
