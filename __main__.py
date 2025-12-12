@@ -1,4 +1,4 @@
-import day01, day02, day03, day04, day05, day06, day07, day08
+import day01, day02, day03, day04, day05, day06, day07, day08, day09
 import argparse, os, shutil, sys
 
 def new_day(num, force=False):
@@ -58,6 +58,7 @@ if __name__ == "__main__":
         # print("Day 06 | Part 2:", day06.part2(f"inputs/06-{puzzle_input}", args.verbose))
         # print("Day 07 | Part 1:", day07.part1(f"inputs/07-{puzzle_input}", args.verbose))
         # print("Day 07 | Part 2:", day07.part2(f"inputs/07-{puzzle_input}", args.verbose))
-        print("Day 08 | Part 1:", day08.part1(f"inputs/08-{puzzle_input}", args.verbose, use_sample=args.sample))
-        print("Day 08 | Part 2:", day08.part2(f"inputs/08-{puzzle_input}", args.verbose, use_sample=args.sample))
+        # print("Day 08 | Part 1:", day08.part1(f"inputs/08-{puzzle_input}", args.verbose, use_sample=args.sample))
+        # print("Day 08 | Part 2:", day08.part2(f"inputs/08-{puzzle_input}", args.verbose, use_sample=args.sample))
+        print("Day 09 | Part 1:", day09.part1(f"inputs/09-{puzzle_input}", args.verbose))
 
