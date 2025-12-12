@@ -58,5 +58,6 @@ if __name__ == "__main__":
         # print("Day 06 | Part 2:", day06.part2(f"inputs/06-{puzzle_input}", args.verbose))
         # print("Day 07 | Part 1:", day07.part1(f"inputs/07-{puzzle_input}", args.verbose))
         # print("Day 07 | Part 2:", day07.part2(f"inputs/07-{puzzle_input}", args.verbose))
-        print("Day 08 | Part 1:", day08.part1(f"inputs/08-{puzzle_input}", args.verbose))
+        print("Day 08 | Part 1:", day08.part1(f"inputs/08-{puzzle_input}", args.verbose, use_sample=args.sample))
+        print("Day 08 | Part 2:", day08.part2(f"inputs/08-{puzzle_input}", args.verbose, use_sample=args.sample))
 

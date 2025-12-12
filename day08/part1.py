@@ -24,12 +24,6 @@ def get_all_distances(pts) -> list[tuple]:
     return result
 
 
-def purge(pts, circuits):
-    for circuit in circuits:
-        for pt in circuit:
-            pts.remove(pt)
-
-
 def connect(p1, p2, circuits):
     target = None
     for i, circuit in enumerate(circuits):
@@ -47,16 +41,18 @@ def connect(p1, p2, circuits):
     return circuits
 
 
-def part1(data:str, verbose:bool=False) -> int:
+def part1(data:str, verbose:bool=False, use_sample=False) -> int:
     input = read_input(data, "tuples")
     dists = get_all_distances(input)
     dists.sort(key=lambda item: item[0] * -1)
     # for dist in dists:
     #     print(f"{dist[0]:.2f}: ({dist[1]} | {dist[2]})")
     circuits = []
-    for i in range(1000):
+    iterations = 1000
+    if use_sample:
+        iterations = 10
+    for i in range(iterations):
         shortest = dists.pop()
         connect(shortest[1], shortest[2], circuits)
     circuits.sort(key=lambda c: len(c), reverse=True)
     return multiply(len(circuits[0]), len(circuits[1]), len(circuits[2]))
-    # purge(input, circuits)
